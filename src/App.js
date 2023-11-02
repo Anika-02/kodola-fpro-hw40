@@ -1,16 +1,12 @@
-import Header from './components/Header/Header'
-import LeftSideNavigation from "./components/LeftSideNavigation/LeftSideNavigation";
-import CentralContainer from "./components/CentralContainer/CentralContainer";
+import './App.css';
+import SmileContainer from "./components/SmileContainer/SmileContainer";
+
 function App() {
-  return (
-      <div>
-        <Header/>
-        <div className='main'>
-          <LeftSideNavigation/>
-          <CentralContainer/>
+    return (
+        <div className="App">
+            <SmileContainer />
         </div>
-      </div>
-  );
+    );
 }
 
 export default App;
